@@ -148,7 +148,7 @@ h2{
 
 #projects{
     background-color: var(--background-dark);
-    padding: 20px 0 20px 0;
+    padding: 20px 0 30px 0;
 }
 
 .project-item{
@@ -219,6 +219,7 @@ h2{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
         gap: 60px;
+        margin-bottom: 30px;
     }
 
     #projects-container h2 {
@@ -257,4 +258,73 @@ footer{
     text-align: center;
     background-color: var(--background-dark);
     padding: 15px;
+}
+
+
+#moreProjects {
+    text-decoration: none;
+    margin-left: 20px;
+    margin-top: 800px;
+    background-color: var(--title-colour);
+    padding: 10px;
+    border-radius: 30px;
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 1s ease-out;
+    margin-bottom: 50px;
+}
+
+#moreProjects:hover{
+    font-weight: 800;
+    transition: all 0.3s ease-out;
+}
+
+#articles-list {
+    font-size: large;
+    li{
+        a {
+            color:var(--title-colour);
+            text-decoration: none;
+            transition: all 0.5s ease-out;
+        };
+        a:hover {
+            text-shadow: 2px 3px 7px var(--title-colour);
+            transition: all 0.3s ease-out;
+        };
+
+        list-style: none;
+        padding: 10px;
+        position: relative;
+    
+        &::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 30%;
+            height: 0.1px;
+            background-color: var(--text-colour);
+        }
+    }
+
+}
+
+.article-content{
+    text-align: justify;
+    margin: 10px 100px 10px 100px;
+    font-size: larger;
+    color: #0f172a;
+    word-spacing: 0.3em;
+    line-height: 1.8;
+    align-content: center;
+}
+
+.article-content img {
+    width: 70%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
