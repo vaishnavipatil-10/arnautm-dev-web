@@ -15,6 +15,7 @@ You can find the project goals and future plans in the
 - JavaScript (basic)
 
 ---
+
 ## 📂 Project Structure
 
 ```text
@@ -31,6 +32,9 @@ project/
 └── news/
     ├── articles.html
     └── assets/
+```
+
+
 
 ---
 
