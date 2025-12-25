@@ -15,23 +15,22 @@ You can find the project goals and future plans in the
 - JavaScript (basic)
 
 ---
-
 ## 📂 Project Structure
 
+```text
 project/
 ├── index.html
 ├── styles.css
 ├── README.md
 ├── assets/
-│ ├── logos/
-│ └── projects/
+│   ├── logos/
+│   └── projects/
 ├── pages/
-│ ├── projects-home.html
-│ └── projects.html
+│   ├── projects-home.html
+│   └── projects.html
 └── news/
-├── articles.html
-└── assets/
-
+    ├── articles.html
+    └── assets/
 
 ---
 
